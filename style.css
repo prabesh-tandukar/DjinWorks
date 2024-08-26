@@ -52,25 +52,48 @@ nav {
 
 /* hero section */
 
-.heroImage {
-    height: 468px;
-    width: 601px;
-}
+
 
 .hero {
     display: flex;
-    margin: 40px 40px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 40px 40px; */
     padding: 80px 50px;
+    background: #F0F0F0;
+}
+.hero .content{
+    padding-left: 10%;
 }
 
+
 .hero .content .heading-1 {
-    width: 40%;
+    font-size: 3rem;
+    width: 70%;
+    margin-bottom: 30px;
 }
 
 .hero .content .text {
     width: 70%;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
 }
 
+.hero .btn {
+    width: 260px;
+    height: 70px;
+    text-align: center;
+    padding: 20px 30px;
+    font-weight: 400 ;
+}
+.heroImage {
+    background: url('HeroImage.png') no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 80%;
+    /* padding-right: 20%; */
+
+}
 
 /* utility */
 
