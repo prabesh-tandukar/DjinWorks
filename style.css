@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+ li { 
+    list-style:none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn a:link {
+    color: #fff;
+}
+
+/* nav */
+
+.logo > img  {
+    height: 50px;
+    width: 268px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    padding: 20px 30px;
+    display: block;
+    cursor: pointer;
+
+}
+ 
+.menu li:last-child  {
+    margin-left: 10px;
+}
+
+/* hero section */
+
+.heroImage {
+    height: 468px;
+    width: 601px;
+}
+
+.hero {
+    display: flex;
+    margin: 40px 40px;
+    padding: 80px 50px;
+}
+
+.hero .content .heading-1 {
+    width: 40%;
+}
+
+.hero .content .text {
+    width: 70%;
+}
+
+
+/* utility */
+
+
+.btn {
+    display: inline-block;
+    background: #662D91;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
